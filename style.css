@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom right, teal, purple)
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+}
+
+#button-holder {
+  text-align: center;
+}
+
+
+hr {
+  border-color:rgb(112, 109, 109);
+}
+
+#game {
+  text-align: center;
+}
+
+#game div {
+  background-color: rgb(48, 45, 45);
+  border: 10px solid rgb(243, 245, 211);
+  width: 15%;
+  height: 200px;
+  margin: 15px;
+  display: inline-block;
+}
